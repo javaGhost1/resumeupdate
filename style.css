@@ -101,8 +101,7 @@ nav a:hover{
   padding: 5px 0 20px 0;
 }
 .main-content a{
-  width: 100vw;
-  position: absolute;
+  
   top: 560px;
   right: 50px;
 }
@@ -110,7 +109,7 @@ nav a:hover{
 
   /* background-color: #393939; */
   border-radius: 50%;
-  border: 1px solid blue;
+  
 }
 .about{
   text-align: right;
@@ -123,10 +122,12 @@ nav a:hover{
 }
 .socials{
   display: flex;
+
   margin-top: 10px;
   float: right;
   
 }
+
 .projects{
  width: 100%;
   font-family: Radio Grotesk;
@@ -156,30 +157,42 @@ nav a:hover{
  
 }
 .life{
-  width: 70%;
+  width: 82%;
+  padding: 50px 0px;
+  padding-bottom: 20px;
 }
 .card-info{
-  
+ 
   font-family: Radio Grotesk;
-  padding: 10px;
-  position: relative;
+  padding: 30px 50px;
+  max-width: 420px;
+
+  /* position: relative; */
   text-align: right;
   }
- .card-info img{
-  border-radius: 70px;
-  width: 120px;
-  margin: 1px;
-  height: 120px;
+.image-stl{
+   /* max-width: 720px; */
+  }
+ .image-stl img{
+  height: 100%;
+  width: 100%;
+  /* border-radius: 70px; */
+  margin: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
  }
  .card-info h4{
    /* margin-top: 20px; */
-   font-size: 16px;
+   font-size: 24px;
    font-weight: 600;
    line-height: 1.9em;
  }
+.techno{
+  font-size: 16px;
+  padding: 5px 0;
+}
  .c-info p{
-   font-size: 19px;
+   font-size: 17px;
    line-height: 1.3em;
 
  }
@@ -189,18 +202,30 @@ nav a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  width: 53%;
+  /* width: 53%; */
   
 }
 
 .info-r{
   padding-left: 0px;
-  float: right;
-  width: 60%;
+  /* float: right; */
+  /* width: 60%; */
   
 }
 .info-r .card-info{
   text-align: left;
+}
+.purple{
+  color: purple;
+}
+.blue{
+  color: blue;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
 }
 .projects span{
   font-weight: bold;
@@ -300,6 +325,7 @@ nav a:hover{
 .tech{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .tech div{
   padding: 5px;
@@ -515,6 +541,19 @@ footer a:hover{
   .msg{
     background-color: rgba(57,57,57,0.05);
     /* font-size: 1.1em; */
+  }
+  .life{
+    width: 90%;
+    padding: 10px;
+  }
+  .image-stl{
+    padding: 0px;
+  }
+  .card-info{
+    padding: 5px;
+  }
+  .c-info{
+    padding: 5px;
   }
   .m-btn{
     /* font-size: 1.1em; */
