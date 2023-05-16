@@ -1,0 +1,37 @@
+{% load static %}
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+   
+    <title>Dennismurage</title>
+  </head>
+<body>
+  <nav class="navbar navbar-light bg-light px-3 ">
+    <a class="navbar-brand" href="#">Murage.dev</a>
+    <ul class="nav nav-pills">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+      </li>
+    </ul>
+  </nav>
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    {% block content %}
+    {% endblock content %}
+  
+</body>
+</html>
