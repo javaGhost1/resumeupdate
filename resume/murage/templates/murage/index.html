@@ -12,7 +12,7 @@
         <div class="about">
           <h1>Back-end Django Developer</h1>
           <img class='hello-img' src="{% static 'images/waving.png'%}"></img>
-          <p>Hi I’m a Dennis, a passionate web developer based in Nairobi,📍 Kenya.</p>
+          <p>Hi I’m a Dennis, a passionate web developer based in Nakuru,📍 Kenya.</p>
           <div class="socials">
             <a target="_blank" href="https://github.com/javaGhost1">
               <img src="https://img.icons8.com/ios-glyphs/46/000000/github.png"/>
@@ -41,62 +41,64 @@
     </div>
 </div>
 
-<div class="container">
-  <div class="scope main-card">    
-    <div id="scrollspyHeading2" class="card">
-      <div class="info">
-        <h1>About Murage</h1>
-        <h4 class="desc">Get to know me before jumping to my contact</h4>
-      </div>
-      <div class='about-murage'>
-        <div class="img-card">
-          <img  src="{% static 'images/webdev.png'%}" alt="">
+<div class=" main-card">
+  <div class='about-section' id="scrollspyHeading2">
+    <div class="container scope ">    
+      
+        <div class="info">
+          <h1>About Njeru</h1>
+          <h4 class="desc">Get to know me before jumping to my contact</h4>
         </div>
-        <div class="murage">
-          <p>
-            I'm a Kenyan 📍 junior web developer  with 5 years of experience in building and designing websites. Strongly skilled in Python, HTML, CSS, and Django RestFul Framework. Proficient in Git, PostgreSql. Passionate about creating user-friendly and visually appealing websites. My passion lies within web development and I strive towards becoming a Full stack web developer. 
-          </p>
-          <div class="tech">
-            <h3>Tech Stack</h3>
-           
-            <div>
-              <img width="40" height="40" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
-            </div>
-            <div>
-              <img width="40" height="40" src="https://img.icons8.com/color/50/css3.png" alt="css3"/>
-            </div>
-            <div>
-              <img width="40" height="40" src="https://img.icons8.com/fluency/48/python.png" alt="python"/>
-            </div>
-            <div>
-            
-              <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/36/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-green-tal-revivo.png" alt="external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-green-tal-revivo"/>
-            </div> 
-            
-            {% comment %} <div>
-                <img src="https://img.icons8.com/color/50/000000/javascript--v1.png"/>
-                <p>javascript</p>
-              </div>
-              <div >
-                <img src="https://img.icons8.com/color/50/000000/react-native.png"/>
-                <p>react</p>
-              </div> {% endcomment %}
-            </div>
-            <p>
-              If you have a project idea in mind, please get in touch. I will be happy to discuss ideas with you and how we can work together.</p>
+        <div class='about-murage'>
+          <div class="img-card">
+            <img  src="{% static 'images/webdev.png'%}" alt="">
           </div>
-          
-      </div>
+          <div class="murage">
+            <p>
+              I'm a Kenyan 📍 junior web developer  with abundant experience in building and designing websites. Strongly skilled in Python, HTML, CSS, and Django RestFul Framework. Proficient in Git, PostgreSql. Passionate about creating user-friendly and visually appealing websites. My passion lies within web development and I strive towards becoming a Full stack web developer. In addition to coding, my hobbies include reading, writing, drawing and gaming. These activities enhance my creativity, critical thinking, and communication skills. These hobbies reflect my well-rounded nature and my commitment to continuous learning and self-improvement. 
+            </p>
+            <div class="tech">
+              <h3>Tech Stack</h3>
+            
+              <div>
+                <img width="40" height="40" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+              </div>
+              <div>
+                <img width="40" height="40" src="https://img.icons8.com/color/50/css3.png" alt="css3"/>
+              </div>
+              <div>
+                <img width="40" height="40" src="https://img.icons8.com/fluency/48/python.png" alt="python"/>
+              </div>
+              <div>
+              
+                <img width="40" height="40" src="https://img.icons8.com/external-tal-revivo-green-tal-revivo/36/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-green-tal-revivo.png" alt="external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-green-tal-revivo"/>
+              </div> 
+              
+              {% comment %} <div>
+                  <img src="https://img.icons8.com/color/50/000000/javascript--v1.png"/>
+                  <p>javascript</p>
+                </div>
+                <div >
+                  <img src="https://img.icons8.com/color/50/000000/react-native.png"/>
+                  <p>react</p>
+                </div> {% endcomment %}
+              </div>
+              <p>
+                If you have a project idea in mind, please get in touch. I will be happy to discuss ideas with you and how we can work together.</p>
+            </div>
+            
+        </div>
+     
     </div>
   </div>
-  <div class="projects">
+  <div id="scrollspyHeading1"  class="projects">
 
-    <div id="scrollspyHeading1" class='main-project'>
+    <div class='main-project'>
       <div class='info'>
           <h1>Projects</h1>
           <h4 class="desc">The best way to get a project done faster is to start sooner</h4>
       </div>
-
+      
       {% for project in projects %}
         <ul class="life">
           <li class="life-info">
@@ -153,59 +155,46 @@
   </div> -->
 
 
-<div class="contact-card">
-<div class='location'>
-  <h2 id="scrollspyHeading3" > 
-  Let's talk!
-  </h2>
+<div class='container location'>
+  <div class='info'>
+  <h1 id="scrollspyHeading3" > 
+    Get In Touch
+  </h1>
+  <h4 class='desc'>If you have a project idea in mind, please get in touch. </h4>
+</div>
   <div>
-    <p>If you have a project idea in mind, please get in touch.</p>
-    <p>This form is the best way to reach me.</p>
-    <p>I will be happy to discuss ideas with you and how we can work together.</p>
-    <p>If you’d like to reach out for non-production related enquires, feel free to send an email or contact me via my social media channels.</p>
+    <div class="footer_location">
+      <div class='mail'>
+        <img width="44" height="44" src="https://img.icons8.com/3d-fluency/94/location.png" alt="location"/>
+        <div class='mail-info'>
+          <h4>Location</h4><p>Nakuru, Kenya</p>
+        </div>
+      </div>
+      
+      <div class='mail'>
+        <img width="44" height="44" src="https://img.icons8.com/fluency/48/email-open.png" alt="email-open"/>
+        <div class='mail-info'>
+          <h4>Mail</h4>
+          <a href="#">dennismurage97@gmail.com</a>
+        </div>
+      </div>
+      <div class='mail'>
+        <img width="44" height="44" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-availability-back-to-work-flaticons-lineal-color-flat-icons-2.png" alt="external-availability-back-to-work-flaticons-lineal-color-flat-icons-2"/>
+        <div class='mail-info'>
+          <h4>Availability</h4>
+          <p>Available for jobs</p>
+        </div>
+      </div>
+    </div>
 
   </div>
   <!-- <img src="images/me-n.jpg"> -->
 </div>
-<div>
-<!-- <h1 id="scrollspyHeading3">Contact me</h1> -->
-<!-- <p class='ctn'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nihil possimus ipsam, adipisci repellat!</p> -->
 
-<form class="mail" method="post">
-  <!-- <span>
-    <input class="msg" type="text" placeholder="Name">
 
-    <input class="msg" type="email" placeholder="Email">
 
-</span> -->
-  {{form.as_p}}
-  {% csrf_token %}
-  <input id="m-btn" type="submit"value="SUBMIT">
-
-  {% comment %} <label for="msg">Name</label>
-  <input class="msg" type="text" placeholder="J.smith">
-  <label for="#">Email *</label>
-  <input class="msg" type="email" placeholder="J.smith@gmail.com">
-  <label for="#">Tell me about your project *</label>
-  <input class="msg m-msg" type="text" placeholder="Hi Dennis, I have an idea for a website">
-
-  <input class="m-btn" type="submit"value="SUBMIT"> {% endcomment %}
-</form>
-<!-- <h3>GET IN TOUCH WITH ME TODAY</h3> -->
-<!-- <button type="button" name="button" class="contact-btn">MESSAGE</button> -->
-
-  </div>
-
-</div>
-
-<footer>
-<!-- <div class="footer_location">
- 
-  <p>Phone:<a href="#"> +254757990070</a></p>
-  <br>
-  <p>Email Me</p>
-  <a href="#">dennismurage97@gmail.com</a>
-</div> -->
+<footer >
+<div class='container'>
 <p>Copyright © 2023. All rights are reserved</p>
 
 <div class="resources">
@@ -216,6 +205,6 @@
   <a href="#"><img width="32" height="32" src="https://img.icons8.com/glyph-neue/64/twitter-squared.png" alt="twitter-squared"/></a>
   <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/linkedin.png" alt="linkedin"/></a>
 </div>
-  
+</div>
 </footer>
 {% endblock content %}

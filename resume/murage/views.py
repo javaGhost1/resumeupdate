@@ -6,7 +6,7 @@ from .models import Project
 # Create your views here.
 
 def index(request):
-    projects = Project.objects.all()
+    projects = Project.objects.all()[:4]
     sent = False
     if request.method == 'POST':
         form = MessageForm(request.POST)
