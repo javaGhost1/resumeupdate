@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-rut$r_c1rk))h-k$i_c0ti_2!4(ji($7g7wlj0nqy^hr52bt2t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '.now.sh', '127.0.0.1']
 
 
 # Application definition
@@ -89,8 +89,17 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
-    
+    }  
+}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'fJlhqZMeWXnCAD2NHCX0',
+        'HOST': 'containers-us-west-35.railway.app',
+        'PORT': '6709',
+    }  
 }
 
 
@@ -133,7 +142,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
