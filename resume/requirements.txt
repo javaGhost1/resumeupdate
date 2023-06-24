@@ -32,7 +32,6 @@ click-repl==0.2.0
 configparser==5.0.1
 crashtest==0.3.1
 cryptography==2.8
-cssselect2==0.6.0
 cupshelpers==1.0
 cycler==0.10.0
 dbus-python==1.2.16
