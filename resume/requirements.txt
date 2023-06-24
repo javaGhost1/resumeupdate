@@ -32,14 +32,7 @@ click-didyoumean==0.3.0
 click-plugins==1.1.1
 click-repl==0.2.0
 clikit==0.6.2
-colorama==0.4.3
-command-not-found==0.3
-configparser==5.0.1
-crashtest==0.3.1
-cryptography==2.8
-cssselect2==0.6.0
-cupshelpers==1.0
-cycler==0.10.0
+
 dbus-python==1.2.16
 decorator==4.4.2
 defer==1.0.6
