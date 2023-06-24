@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-from pickle import TRUE
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -73,24 +72,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'resume.wsgi.application'
 
-# email configuration
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_HOST_USER = "dennismurage97@gmail.com"
-EMAIL_HOST_PASSWORD = "phhm lrtw wuhe bbkr"
-EMAIL_PORT = 587
-EMAIL_USE_TLS = TRUE
+
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # EMAIL_FILE_PATH = BASE_DIR
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }  
-}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
