@@ -35,7 +35,6 @@ flower==1.1.0
 Markdown==3.3.3
 Pillow==9.2.0
 
-psycopg2-binary==2.8.6
 social-auth-app-django==5.2.0
 social-auth-core==4.4.1
 soupsieve==2.3.2.post1
