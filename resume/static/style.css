@@ -82,7 +82,20 @@ nav a:hover{
   object-fit: cover;
   background-size: cover;
 }
-
+#hero-bg{
+  max-height: 490px;
+  background-color: #868686;
+  width: 24rem;
+  background: url("/static/images/mr.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: morph 8s ease-in-out infinite;
+  border: 1px solid black;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
 .container{
   width: 100%;
   position: relative;
@@ -129,16 +142,24 @@ nav a:hover{
   
   right: 50px;
 }
+.icon{
+  max-width: 30px;
+}
 .main-content a img{
 
   /* background-color: #393939; */
   border-radius: 50%;
   
 }
+.hero-img{
+  height: 28rem;
+  width: 28rem;
+  
+}
 .about-section{
   background-color: rgb(216, 191, 216, 0.1);
-  padding: 40px 0px 90px 0px;
-  margin-top: 45px;
+  /* padding: 40px 0px 90px 0px; */
+  /* margin-top: 45px; */
 }
 .about{
   display: flex;
@@ -155,8 +176,8 @@ nav a:hover{
   /* max-width: 50rem; */
  
   color: #2d2e32;
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 2.9rem;
+  /* font-weight: bolder; */
   line-height: 1.2;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -173,8 +194,8 @@ nav a:hover{
 .hello-img{
 
     position: absolute;
-    right: 3rem;
-    top: 6.1rem;
+    right: 3.7rem;
+    top: 7.1rem;
     width: 4rem;
 }
 /* .hero-bg{
@@ -401,17 +422,17 @@ nav a:hover{
 }
 .info{
   text-align: center;
-  padding: 44px 0px;
+  padding-top: 44px;
 }
 .info h1{
+  
   color: #333;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-  font-size: 27px;
+  font-size: 29px;
   font-weight: 400;
 
 }
 .info h1, h4{
-  /* padding: 5px; */
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -519,12 +540,19 @@ form{
   cursor: pointer;
   transform: scale(0.98);
 }
+.graphics {
+  margin-top: -195px;
+  z-index: -1;
+  width: 100%;
+ overflow: hidden;
+  /* margin-bottom: -185px; */
+}
 .footer_location{
   
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 30px
+  /* padding-top: 60px */
 }
 .loc{
   padding-bottom: 20px;
@@ -560,7 +588,7 @@ form{
 
 .location{
 justify-content: space-between;
-  padding: 60px 0px;
+  padding: 10px 0px;
 }
 .location h2{
   color: #333;
@@ -603,6 +631,18 @@ footer a:hover{
 .resources{
   display: flex;
   /* flex-direction: column; */
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+}
+100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+}
+  
 }
 @media only screen and (min_width: 884px){
   
@@ -655,12 +695,16 @@ text-align: center;
   }
 
   .main-content{
-    padding: 67px 0px;
+    padding: 0px;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-origin: border-box;
     display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  #hero-bg{
+    height: 300px;
   }
   .card-info{
    margin: auto;
@@ -680,6 +724,10 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
+  .about h1{
+    font-size: 34px;
+    text-align: center;
   }
   nav{
     /* background-color: #393939; */
@@ -757,6 +805,7 @@ text-align: center;
   .m-btn{
     /* font-size: 1.1em; */
   }
+  
 
 }
 
@@ -764,5 +813,8 @@ text-align: center;
   .image-card img{
     height: auto;
     max-width: 10px;
+  }
+  .graphics{
+    margin-bottom: -156px;
   }
 }

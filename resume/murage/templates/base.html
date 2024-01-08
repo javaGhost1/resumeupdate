@@ -18,28 +18,34 @@
   </head>
 <body>
   
-  <nav class="navbar navbar-expand-lg  fixed-top navbar-expand-lg navbar-light p-3">
+  <nav class="navbar navbar-expand-lg  fixed-top navbar-hero navbar-light p-3">
     <a class="navbar-brand" href="#">NJERU</a>
-    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    {% comment %} <img style="width:20px"  src="{%static 'images/moon.png'%}"> {% endcomment %}
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto ">
+    <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+     
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-        <a class="nav-link" href="#scrollspyHeading2">About</a>
+          <a class="nav-link" href="#scrollspyHeading2">About</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading1">Projects</a>
+          <a class="nav-link" href="#scrollspyHeading1">Projects</a>
 
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+          <a class="nav-link" href="#scrollspyHeading3">Contact</a>
 
         </li>
         
       </ul>
+   
     </div>
+
   </nav>
+
   
  
     {% block content %}
