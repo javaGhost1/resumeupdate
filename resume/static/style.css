@@ -111,7 +111,6 @@ nav a:hover{
   top: 6.1rem;
   width: 4rem;
 }
-<<<<<<< HEAD
 .icon{
   max-width: 30px;
 }
@@ -126,14 +125,6 @@ nav a:hover{
   width: 28rem;
   
 }
-=======
-.socials{
-  display: flex;
-  margin-top: 10px;
-  float: right; 
-}
-/* About section */
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
 .about-section{
   background-color: rgb(216, 191, 216, 0.1);
   /* padding: 40px 0px 90px 0px; */
@@ -164,7 +155,6 @@ nav a:hover{
   font-weight: 500;
   line-height: 1.6;
 }
-<<<<<<< HEAD
 .hello-img{
 
     position: absolute;
@@ -204,8 +194,6 @@ nav a:hover{
   /* border-bottom: 1px solid #393939; */
 }
 
-=======
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
 .main-project{
  display: flex;
  justify-content: center;
@@ -336,10 +324,6 @@ nav a:hover{
   font-weight: 400;
 }
 .info h1, h4{
-<<<<<<< HEAD
-=======
- 
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -368,7 +352,6 @@ nav a:hover{
   padding: 7px;
   font-size: 17px;
 }
-<<<<<<< HEAD
 .tech p{
  
   padding: 0;
@@ -440,8 +423,6 @@ form{
  overflow: hidden;
   /* margin-bottom: -185px; */
 }
-=======
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
 .footer_location{
   display: flex;
   justify-content: space-between;
@@ -481,13 +462,8 @@ form{
 }
 
 .location{
-<<<<<<< HEAD
 justify-content: space-between;
   padding: 10px 0px;
-=======
-  justify-content: space-between;
-  padding: 60px 0px;
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
 }
 .location h2{
     color: #333;
@@ -519,7 +495,6 @@ footer p{
   display: flex;
   
 }
-<<<<<<< HEAD
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -532,12 +507,6 @@ footer p{
 }
   
 }
-=======
-
-
-
-
->>>>>>> 29aaf34788b0b28a56e1ec16c54aab678c80c046
 @media only screen and (min_width: 884px){
   
 }
