@@ -1,4 +1,4 @@
-#!/home/murage/Desktop/projects/django/portfolio/ll_env/bin/python3
+#!/home/turing/Desktop/development/resumeupdate/ll_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
